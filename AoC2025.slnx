@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AoC2025.CLI/AoC2025.CLI.fsproj" />
+  <Project Path="AoC2025.Lib/AoC2025.Lib.fsproj" />
+  <Project Path="AoC2025.Tests/AoC2025.Tests.fsproj" />
+</Solution>
