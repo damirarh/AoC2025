@@ -23,4 +23,8 @@
       <ProjectReference Include="..\AoC2025.Lib\AoC2025.Lib.fsproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Include="Day01Tests.fs" />
+    </ItemGroup>
+
 </Project>

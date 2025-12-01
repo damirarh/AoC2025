@@ -5,4 +5,8 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Include="Day01.fs" />
+    </ItemGroup>
+
 </Project>
