@@ -21,6 +21,8 @@ run "Day 01 Part 1:" (readAllLines "Day01.txt") Day01.countStopsAtZero
 run "Day 01 Part 2:" (readAllLines "Day01.txt") Day01.countPassesOfZero
 run "Day 02 Part 1:" (readAllText "Day02.txt") Day02.calculateSumOfInvalidIdsRepeatedTwice
 run "Day 02 Part 2:" (readAllText "Day02.txt") Day02.calculateSumOfInvalidIdsRepeatedMoreThanTwice
+run "Day 03 Part 1:" (readAllLines "Day03.txt") (Day03.calculateTotalJoltage 2)
+run "Day 03 Part 2:" (readAllLines "Day03.txt") (Day03.calculateTotalJoltage 12)
 
 printfn ""
 printfn "Finished"
