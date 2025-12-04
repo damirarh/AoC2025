@@ -23,6 +23,8 @@ run "Day 02 Part 1:" (readAllText "Day02.txt") Day02.calculateSumOfInvalidIdsRep
 run "Day 02 Part 2:" (readAllText "Day02.txt") Day02.calculateSumOfInvalidIdsRepeatedMoreThanTwice
 run "Day 03 Part 1:" (readAllLines "Day03.txt") (Day03.calculateTotalJoltage 2)
 run "Day 03 Part 2:" (readAllLines "Day03.txt") (Day03.calculateTotalJoltage 12)
+run "Day 04 Part 1:" (readAllLines "Day04.txt") Day04.countAccessibleRolls
+run "Day 04 Part 2:" (readAllLines "Day04.txt") Day04.countRemovableRolls
 
 printfn ""
 printfn "Finished"
