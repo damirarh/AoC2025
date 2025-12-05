@@ -25,6 +25,8 @@ run "Day 03 Part 1:" (readAllLines "Day03.txt") (Day03.calculateTotalJoltage 2)
 run "Day 03 Part 2:" (readAllLines "Day03.txt") (Day03.calculateTotalJoltage 12)
 run "Day 04 Part 1:" (readAllLines "Day04.txt") Day04.countAccessibleRolls
 run "Day 04 Part 2:" (readAllLines "Day04.txt") Day04.countRemovableRolls
+run "Day 05 Part 1:" (readAllLines "Day05.txt") Day05.countValidIngredients
+run "Day 05 Part 2:" (readAllLines "Day05.txt") Day05.countValidIngredientIds
 
 printfn ""
 printfn "Finished"
