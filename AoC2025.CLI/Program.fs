@@ -27,6 +27,8 @@ run "Day 04 Part 1:" (readAllLines "Day04.txt") Day04.countAccessibleRolls
 run "Day 04 Part 2:" (readAllLines "Day04.txt") Day04.countRemovableRolls
 run "Day 05 Part 1:" (readAllLines "Day05.txt") Day05.countValidIngredients
 run "Day 05 Part 2:" (readAllLines "Day05.txt") Day05.countValidIngredientIds
+run "Day 06 Part 1:" (readAllLines "Day06.txt") Day06.calculateGrandTotal
+run "Day 06 Part 2:" (readAllLines "Day06.txt") Day06.calculateGrandTotalRightToLeft
 
 printfn ""
 printfn "Finished"
