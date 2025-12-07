@@ -29,6 +29,8 @@ run "Day 05 Part 1:" (readAllLines "Day05.txt") Day05.countValidIngredients
 run "Day 05 Part 2:" (readAllLines "Day05.txt") Day05.countValidIngredientIds
 run "Day 06 Part 1:" (readAllLines "Day06.txt") Day06.calculateGrandTotal
 run "Day 06 Part 2:" (readAllLines "Day06.txt") Day06.calculateGrandTotalRightToLeft
+run "Day 07 Part 1:" (readAllLines "Day07.txt") Day07.countBeamSplits
+run "Day 07 Part 2:" (readAllLines "Day07.txt") Day07.countTimelines
 
 printfn ""
 printfn "Finished"
