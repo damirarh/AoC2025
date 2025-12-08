@@ -31,6 +31,8 @@ run "Day 06 Part 1:" (readAllLines "Day06.txt") Day06.calculateGrandTotal
 run "Day 06 Part 2:" (readAllLines "Day06.txt") Day06.calculateGrandTotalRightToLeft
 run "Day 07 Part 1:" (readAllLines "Day07.txt") Day07.countBeamSplits
 run "Day 07 Part 2:" (readAllLines "Day07.txt") Day07.countTimelines
+run "Day 08 Part 1:" (readAllLines "Day08.txt") (Day08.multiplySizesOfLargestCircuits 1000)
+run "Day 08 Part 2:" (readAllLines "Day08.txt") Day08.multiplyXCoordsOfLastJunctions
 
 printfn ""
 printfn "Finished"
