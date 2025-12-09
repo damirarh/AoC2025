@@ -33,6 +33,8 @@ run "Day 07 Part 1:" (readAllLines "Day07.txt") Day07.countBeamSplits
 run "Day 07 Part 2:" (readAllLines "Day07.txt") Day07.countTimelines
 run "Day 08 Part 1:" (readAllLines "Day08.txt") (Day08.multiplySizesOfLargestCircuits 1000)
 run "Day 08 Part 2:" (readAllLines "Day08.txt") Day08.multiplyXCoordsOfLastJunctions
+run "Day 09 Part 1:" (readAllLines "Day09.txt") Day09.calculateLargestArea
+run "Day 09 Part 2:" (readAllLines "Day09.txt") Day09.calculateLargestAreaWithRedAndGreenTilesOnly
 
 printfn ""
 printfn "Finished"
