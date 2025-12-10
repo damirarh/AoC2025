@@ -35,6 +35,8 @@ run "Day 08 Part 1:" (readAllLines "Day08.txt") (Day08.multiplySizesOfLargestCir
 run "Day 08 Part 2:" (readAllLines "Day08.txt") Day08.multiplyXCoordsOfLastJunctions
 run "Day 09 Part 1:" (readAllLines "Day09.txt") Day09.calculateLargestArea
 run "Day 09 Part 2:" (readAllLines "Day09.txt") Day09.calculateLargestAreaWithRedAndGreenTilesOnly
+run "Day 10 Part 1:" (readAllLines "Day10.txt") Day10.getTotalMinLightButtonPressCount
+run "Day 10 Part 2:" (readAllLines "Day10.txt") Day10.getTotalMinJoltageButtonPressCount
 
 printfn ""
 printfn "Finished"
