@@ -37,6 +37,8 @@ run "Day 09 Part 1:" (readAllLines "Day09.txt") Day09.calculateLargestArea
 run "Day 09 Part 2:" (readAllLines "Day09.txt") Day09.calculateLargestAreaWithRedAndGreenTilesOnly
 run "Day 10 Part 1:" (readAllLines "Day10.txt") Day10.getTotalMinLightButtonPressCount
 run "Day 10 Part 2:" (readAllLines "Day10.txt") Day10.getTotalMinJoltageButtonPressCount
+run "Day 11 Part 1:" (readAllLines "Day11.txt") Day11.countPathsFromYouToOut
+run "Day 11 Part 2:" (readAllLines "Day11.txt") Day11.countValidPathsFromSvrToOut
 
 printfn ""
 printfn "Finished"
